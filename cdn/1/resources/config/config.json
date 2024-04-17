@@ -1,0 +1,2611 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0",
+        "SMALL": "layout_21"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Visor",
+      "header": true,
+      "footer": true
+    },
+    "page_1": {
+      "id": "page_1",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_2",
+        "SMALL": "layout_20"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Acerca de",
+      "header": true,
+      "footer": true
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_3"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Turismo en cifras",
+      "header": true,
+      "footer": true
+    },
+    "page_3": {
+      "id": "page_3",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_4",
+        "SMALL": "layout_14"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Danos tu opinión",
+      "header": true,
+      "footer": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        }
+      },
+      "order": [
+        "3"
+      ]
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_4": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "50.0%",
+            "top": "0.0%",
+            "bottom": "49.8%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_2",
+          "bbox": {
+            "left": "50.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "49.8%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "2": {
+          "type": "SECTION",
+          "sectionId": "section_3",
+          "bbox": {
+            "left": "0.0%",
+            "right": "50.0%",
+            "top": "50.1%",
+            "bottom": "-0.3%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "SECTION",
+          "sectionId": "section_4",
+          "bbox": {
+            "left": "50.0%",
+            "right": "0.0%",
+            "top": "50.1%",
+            "bottom": "-0.3%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_5": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_30",
+          "bbox": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_31",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "1",
+        "3",
+        "0",
+        "2"
+      ]
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "95.3%",
+            "right": "-0.0%",
+            "top": "9.3%",
+            "bottom": "56.6%",
+            "width": "4.7%",
+            "height": "34.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_7": {
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "0.0%",
+            "right": "92.4%",
+            "top": "0.0%",
+            "bottom": "6.9%",
+            "width": "7.6%",
+            "height": "93.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {
+            "left": "41.0%",
+            "right": "39.8%",
+            "top": "11.0%",
+            "bottom": "6.7%",
+            "width": "19.2%",
+            "height": "82.3%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "68.2%",
+            "right": "0.0%",
+            "top": "13.2%",
+            "bottom": "6.9%",
+            "width": "31.8%",
+            "height": "79.9%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_29",
+          "bbox": {
+            "left": "10.0%",
+            "right": "65.9%",
+            "top": "13.3%",
+            "bottom": "0.0%",
+            "width": "24.1%",
+            "height": "86.7%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_8": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_9": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_21",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_22",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_11": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_23",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_12": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_24",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_13": {
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "0.0%",
+            "right": "76.0%",
+            "top": "0.0%",
+            "bottom": "9.2%",
+            "width": "24.0%",
+            "height": "90.8%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {
+            "left": "28.0%",
+            "right": "35.0%",
+            "top": "22.8%",
+            "bottom": "19.9%",
+            "width": "37.0%",
+            "height": "57.3%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "64.9%",
+            "right": "0.0%",
+            "top": "11.4%",
+            "bottom": "18.0%",
+            "width": "35.1%",
+            "height": "70.6%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_14": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "50.0%",
+            "top": "0.0%",
+            "bottom": "49.8%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_2",
+          "bbox": {
+            "left": "50.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "49.8%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "2": {
+          "type": "SECTION",
+          "sectionId": "section_3",
+          "bbox": {
+            "left": "0.0%",
+            "right": "50.0%",
+            "top": "50.1%",
+            "bottom": "-0.3%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "SECTION",
+          "sectionId": "section_4",
+          "bbox": {
+            "left": "50.0%",
+            "right": "0.0%",
+            "top": "50.1%",
+            "bottom": "-0.3%",
+            "width": "50.0%",
+            "height": "50.2%"
+          },
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_21",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_16": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_22",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_17": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_23",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_18": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_24",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1"
+      ]
+    },
+    "layout_19": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_21": {
+      "type": "FIXED",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "3"
+      ]
+    },
+    "layout_22": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "width": "13.3%",
+            "height": "20.6%",
+            "right": "8px",
+            "top": "45px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_23": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "1",
+        "0"
+      ]
+    }
+  },
+  "exbVersion": "1.13.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "SMALL": {
+        "width": 360,
+        "height": 720
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_3": {
+      "uri": "widgets/common/controller/",
+      "version": "1.13.0",
+      "label": "Controlador de widget",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {}
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "",
+                "bg": "var(--dark-800)",
+                "border": {
+                  "color": "#076fe5",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--dark-200)"
+              },
+              "active": {
+                "bg": "var(--dark-100)",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_3",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_5",
+          "SMALL": "layout_23"
+        }
+      },
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        },
+        "background": {
+          "color": "rgba(0,0,0,0)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.13.0",
+      "label": "Capas del mapa",
+      "config": {
+        "useMapWidget": true
+      },
+      "id": "widget_4",
+      "useMapWidgetIds": [
+        "widget_5"
+      ]
+    },
+    "widget_5": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.13.0",
+      "label": "Mapa",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 36111.909643,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -526816.2957425237,
+              "y": 5108599.921936067
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -532931.2580053296,
+            "ymin": 5105251.024634327,
+            "xmax": -520701.3334797179,
+            "ymax": 5111948.819237807
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
+      },
+      "id": "widget_5",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_6",
+          "SMALL": "layout_22"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_6": {
+      "uri": "widgets/arcgis/directions/",
+      "version": "1.13.0",
+      "label": "Indicaciones",
+      "config": {
+        "routeConfig": {
+          "useUtility": {
+            "utilityId": "utility_1"
+          }
+        },
+        "searchConfig": {
+          "dataConfig": [
+            {
+              "configId": "config_0",
+              "icon": null,
+              "label": "ArcGIS World Geocoding Service",
+              "useUtility": {
+                "utilityId": "utility_2"
+              },
+              "searchServiceType": "GeocodeService",
+              "singleLineFieldName": "SingleLine",
+              "isSupportSuggest": true
+            }
+          ]
+        }
+      },
+      "id": "widget_6",
+      "outputDataSources": [
+        "widget_6_output_stop",
+        "widget_6_output_direction_point",
+        "widget_6_output_direction_line",
+        "widget_6_output_route"
+      ],
+      "useMapWidgetIds": [
+        "widget_5"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        },
+        {
+          "utilityId": "utility_2"
+        }
+      ]
+    },
+    "widget_10": {
+      "uri": "widgets/common/embed/",
+      "version": "1.13.0",
+      "label": "Integrar",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://storymaps.arcgis.com/stories/80ffbdd82e0349859e2ceb33d0231c04</p>",
+        "enableLabel": false,
+        "autoRefresh": true
+      },
+      "id": "widget_10",
+      "useDataSources": []
+    },
+    "widget_11": {
+      "uri": "widgets/common/menu/",
+      "version": "1.13.0",
+      "label": "Menú 2",
+      "config": {
+        "type": "nav",
+        "menuStyle": "pills",
+        "vertical": false,
+        "advanced": true,
+        "standard": {
+          "textAlign": "center",
+          "gap": "0px",
+          "showText": true,
+          "showIcon": false,
+          "iconPosition": "start"
+        },
+        "variant": {
+          "size": {
+            "fontSize": "0.875rem",
+            "lineHeight": 1.5,
+            "paddingX": "1rem",
+            "paddingY": "0.25rem"
+          },
+          "gutter": "0.25rem",
+          "icon": {
+            "spacing": "0.5rem"
+          },
+          "root": {
+            "borderRadius": "50rem"
+          },
+          "item": {
+            "default": {
+              "color": "#181818",
+              "border": {
+                "width": "0px"
+              },
+              "borderRadius": "6.25rem",
+              "icon": {
+                "size": "16px"
+              },
+              "size": "12px",
+              "bg": "#faf2e6"
+            },
+            "hover": {
+              "color": "#73c3b4",
+              "borderRadius": "6.25rem",
+              "icon": {
+                "color": "var(--primary)",
+                "size": "16px"
+              },
+              "size": "14px"
+            },
+            "active": {
+              "color": "#fff",
+              "bg": "#73c3b4",
+              "borderRadius": "6.25rem",
+              "icon": {
+                "color": "var(--white)",
+                "size": "16px"
+              },
+              "size": "14px"
+            },
+            "disabled": {
+              "color": "#989898",
+              "shadow": "none",
+              "borderRadius": "50rem"
+            }
+          }
+        },
+        "paper": {
+          "bg": "#f0f0f0",
+          "color": "#050505",
+          "paddingX": 0,
+          "paddingY": 0,
+          "border": {
+            "width": 0,
+            "color": "transparent"
+          }
+        }
+      },
+      "id": "widget_11"
+    },
+    "widget_13": {
+      "uri": "widgets/common/image/",
+      "version": "1.13.0",
+      "label": "Imagen 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_8/1713217405516.png",
+            "originalUrl": "${appResourceUrl}/images/widget_8/1713217405516.png",
+            "fileName": "1713217405516.png",
+            "originalName": "logoTFM.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1713217405516",
+            "isUseCompress": false,
+            "originalWidth": 670,
+            "originalHeight": 467
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_13"
+    },
+    "widget_14": {
+      "uri": "widgets/common/text/",
+      "version": "1.13.0",
+      "label": "Texto 4",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(18, 96, 87); background-color: rgb(240, 240, 240); font-size: 25px; text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px, rgba(0, 0, 0, 0.3) -2px 4px 2px;\">VALLADOLID</strong></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_14"
+    },
+    "widget_15": {
+      "uri": "widgets/common/text/",
+      "version": "1.13.0",
+      "label": "Texto 5",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"color: rgb(18, 96, 87); background-color: rgb(240, 240, 240); font-size: 25px; text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px, rgba(0, 0, 0, 0.3) -2px 4px 2px;\">ÁREA DE EMPRESAS</span></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_15"
+    },
+    "widget_16": {
+      "uri": "widgets/common/embed/",
+      "version": "1.13.0",
+      "label": "Integrar 2",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://www.arcgis.com/apps/dashboards/0d10c78f621f40fdbfdb54769665b89b</p>",
+        "enableLabel": false
+      },
+      "id": "widget_16",
+      "useDataSources": []
+    },
+    "widget_21": {
+      "uri": "widgets/common/button/",
+      "version": "1.13.0",
+      "label": "Botón",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/1vuXXv",
+            "expression": null
+          },
+          "text": "Restaurantes",
+          "toolTip": "",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "var(--dark)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "50px",
+                "color": "var(--dark)",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "var(--dark)",
+                "fillType": "fill",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "originalUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "fileName": "photo-1550966871-3ed3cdb5ed0c",
+                  "originalName": "photo-1550966871-3ed3cdb5ed0c",
+                  "imgSourceType": "BY_URL"
+                }
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--light)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--dark)",
+                "size": "30px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              },
+              "boxShadow": {
+                "offsetX": "0px",
+                "offsetY": "0px",
+                "blur": "0px",
+                "spread": "0px",
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_21",
+      "useDataSourcesEnabled": false
+    },
+    "widget_22": {
+      "uri": "widgets/common/button/",
+      "version": "1.13.0",
+      "label": "Botón 2",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/1Gq45z0",
+            "expression": null
+          },
+          "text": "Museos",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "50px",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "#fff",
+                "fillType": "fill",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1621886292650-520f76c747d6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "originalUrl": "https://images.unsplash.com/photo-1621886292650-520f76c747d6?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "fileName": "photo-1621886292650-520f76c747d6",
+                  "originalName": "photo-1621886292650-520f76c747d6",
+                  "imgSourceType": "BY_URL"
+                }
+              },
+              "border": {
+                "type": "solid",
+                "color": "#c5c5c5",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "30px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_22"
+    },
+    "widget_23": {
+      "uri": "widgets/common/button/",
+      "version": "1.13.0",
+      "label": "Botón 3",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/1XD8r00",
+            "expression": null
+          },
+          "text": "Alojamientos",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "50px",
+                "color": "var(--light)",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "#fff",
+                "fillType": "fill",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1621293954908-907159247fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "originalUrl": "https://images.unsplash.com/photo-1621293954908-907159247fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "fileName": "photo-1621293954908-907159247fc8",
+                  "originalName": "photo-1621293954908-907159247fc8",
+                  "imgSourceType": "BY_URL"
+                }
+              },
+              "border": {
+                "type": "solid",
+                "color": "#c5c5c5",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "30px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_23"
+    },
+    "widget_24": {
+      "uri": "widgets/common/button/",
+      "version": "1.13.0",
+      "label": "Botón 4",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/1nCfLr0",
+            "expression": null
+          },
+          "text": "Puntos de Interés",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "50px",
+                "bold": true
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            },
+            "regular": {
+              "background": {
+                "color": "#fff",
+                "fillType": "fill",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1592196960271-35ff662e859c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "originalUrl": "https://images.unsplash.com/photo-1592196960271-35ff662e859c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "fileName": "photo-1592196960271-35ff662e859c",
+                  "originalName": "photo-1592196960271-35ff662e859c",
+                  "imgSourceType": "BY_URL"
+                }
+              },
+              "border": {
+                "type": "solid",
+                "color": "#c5c5c5",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--dark)",
+                "size": "30px",
+                "bold": true
+              },
+              "borderRadius": {
+                "number": [
+                  5,
+                  5,
+                  5,
+                  5
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_24"
+    },
+    "widget_29": {
+      "uri": "widgets/common/text/",
+      "version": "1.13.0",
+      "label": "Texto 6",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"color: rgb(18, 96, 87); background-color: rgb(240, 240, 240); font-size: 25px; text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px, rgba(0, 0, 0, 0.3) -2px 4px 2px;\">TOURMAPPER GIS</strong></p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_29"
+    },
+    "widget_30": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.13.0",
+      "label": "Leyenda",
+      "config": {
+        "cardStyle": false,
+        "cardLayout": "auto",
+        "style": {
+          "useCustom": false
+        }
+      },
+      "id": "widget_30",
+      "useMapWidgetIds": [
+        "widget_5"
+      ]
+    },
+    "widget_31": {
+      "uri": "widgets/SOS/",
+      "version": "1.13.0",
+      "config": {
+        "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Hopitales_Valladolid/FeatureServer"
+      },
+      "id": "widget_31",
+      "useMapWidgetIds": [
+        "widget_5"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "Vista",
+      "layout": {
+        "LARGE": "layout_9",
+        "SMALL": "layout_15"
+      }
+    },
+    "view_2": {
+      "id": "view_2",
+      "label": "Vista 2",
+      "layout": {
+        "LARGE": "layout_10",
+        "SMALL": "layout_16"
+      }
+    },
+    "view_3": {
+      "id": "view_3",
+      "label": "Vista 3",
+      "layout": {
+        "LARGE": "layout_11",
+        "SMALL": "layout_17"
+      }
+    },
+    "view_4": {
+      "id": "view_4",
+      "label": "Vista 4",
+      "layout": {
+        "LARGE": "layout_12",
+        "SMALL": "layout_18"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Sección",
+      "views": [
+        "view_1"
+      ]
+    },
+    "section_2": {
+      "id": "section_2",
+      "label": "Sección 2",
+      "views": [
+        "view_2"
+      ]
+    },
+    "section_3": {
+      "id": "section_3",
+      "label": "Sección 3",
+      "views": [
+        "view_3"
+      ]
+    },
+    "section_4": {
+      "id": "section_4",
+      "label": "Sección 4",
+      "views": [
+        "view_4"
+      ]
+    }
+  },
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Mapa Turístico Valladolid",
+      "itemId": "53e08de9457d40708f1f800f16090db1",
+      "portalUrl": "https://esmastergis.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "18d839eef55-layer-86": {
+          "id": "dataSource_1-18d839eef55-layer-86",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Establecimientos",
+          "childDataSourceJsons": {
+            "18d8055611e-layer-5": {
+              "id": "dataSource_1-18d839eef55-layer-86-18d8055611e-layer-5",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "E_Alojamientos_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/E_Alojamientos_WGS84/FeatureServer/0",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "9b628723a8d7494da0429f3577a72015",
+              "layerId": "0",
+              "label": "Alojamientos"
+            },
+            "18d8055659f-layer-6": {
+              "id": "dataSource_1-18d839eef55-layer-86-18d8055659f-layer-6",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "E_Restauracion_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/E_Restauracion_WGS84/FeatureServer/5",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "4cf767bda7b7475c913842448f1ac99e",
+              "layerId": "5",
+              "label": "Restauración"
+            },
+            "18e190fee9b-layer-9": {
+              "id": "dataSource_1-18d839eef55-layer-86-18e190fee9b-layer-9",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "E_Turismo_Rural_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/E_Turismo_Rural_WGS84/FeatureServer/2",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "96df5cce87084d068052432548cd3203",
+              "layerId": "2",
+              "label": "Alojamientos Rurales"
+            }
+          }
+        },
+        "18d839f7559-layer-87": {
+          "id": "dataSource_1-18d839f7559-layer-87",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "Lugares Turísticos",
+          "childDataSourceJsons": {
+            "18d83877835-layer-59": {
+              "id": "dataSource_1-18d839f7559-layer-87-18d83877835-layer-59",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "PT_Teatros_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/PT_Teatros_WGS84/FeatureServer/14",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e7eb4d336fbb46c9bd6f2f7aa39ab282",
+              "layerId": "14",
+              "label": "Teatros"
+            },
+            "18d838b7d8b-layer-60": {
+              "id": "dataSource_1-18d839f7559-layer-87-18d838b7d8b-layer-60",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "PT_Museos_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/PT_Museos_WGS84/FeatureServer/10",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "a8b799df5f95450c81475ec3cb2517c0",
+              "layerId": "10",
+              "label": "Museos"
+            },
+            "18d80554d83-layer-2": {
+              "id": "dataSource_1-18d839f7559-layer-87-18d80554d83-layer-2",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "PT_Monumentos_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/PT_Monumentos_WGS84/FeatureServer/21",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "fe430a41eaff4941ba49e56958bf66ae",
+              "layerId": "21",
+              "label": "Monumentos"
+            },
+            "18dacd20257-layer-9": {
+              "id": "dataSource_1-18d839f7559-layer-87-18dacd20257-layer-9",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "PT_Puntos_Interes_WGS84",
+              "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/PT_Puntos_Interes_WGS84/FeatureServer/23",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e30d2edeabda47a583a350bdb83d9ad7",
+              "layerId": "23",
+              "label": "Puntos de Interés",
+              "query": {
+                "id": "dataSource_1-18d839f7559-layer-87-18dacd20257-layer-9",
+                "label": "Puntos de Interés",
+                "refreshInterval": 300
+              }
+            }
+          }
+        },
+        "18ee2f9055a-layer-11": {
+          "id": "dataSource_1-18ee2f9055a-layer-11",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "Parkings Disuasorios",
+          "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Parking_Disuasorios_VA/FeatureServer/10",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "6db7a40844414b74a991fd3d10f46b60",
+          "layerId": "10"
+        },
+        "18ee381209c-layer-12": {
+          "id": "dataSource_1-18ee381209c-layer-12",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "DISTRITOS_Seguridad_WGS84",
+          "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/DISTRITOS_Seguridad_WGS84/FeatureServer/0",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "7d5a46b2314d4614a473081b9cae09f7",
+          "layerId": "0",
+          "label": "Seguridad ciudadana"
+        }
+      },
+      "isHidden": false
+    },
+    "widget_6_output_stop": {
+      "id": "widget_6_output_stop",
+      "label": "Paradas",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPoint",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "ArrivalCurbApproach": {
+            "jimuName": "ArrivalCurbApproach",
+            "name": "ArrivalCurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Arrival Curb Approach",
+            "format": null
+          },
+          "ArrivalTime": {
+            "jimuName": "ArrivalTime",
+            "name": "ArrivalTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Arrival Time",
+            "format": null
+          },
+          "ArrivalUTCOffset": {
+            "jimuName": "ArrivalUTCOffset",
+            "name": "ArrivalUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Arrival Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "CumulativeCosts": {
+            "jimuName": "CumulativeCosts",
+            "name": "CumulativeCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Cumulative Costs",
+            "format": null
+          },
+          "CumulativeMeters": {
+            "jimuName": "CumulativeMeters",
+            "name": "CumulativeMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Cumulative Meters",
+            "format": null
+          },
+          "CumulativeMinutes": {
+            "jimuName": "CumulativeMinutes",
+            "name": "CumulativeMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Cumulative Minutes",
+            "format": null
+          },
+          "CurbApproach": {
+            "jimuName": "CurbApproach",
+            "name": "CurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Curb Approach",
+            "format": null
+          },
+          "DepartureCurbApproach": {
+            "jimuName": "DepartureCurbApproach",
+            "name": "DepartureCurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Departure Curb Approach",
+            "format": null
+          },
+          "DepartureTime": {
+            "jimuName": "DepartureTime",
+            "name": "DepartureTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Departure Time",
+            "format": null
+          },
+          "DepartureUTCOffset": {
+            "jimuName": "DepartureUTCOffset",
+            "name": "DepartureUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Departure Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "LateMinutes": {
+            "jimuName": "LateMinutes",
+            "name": "LateMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Minutes Late",
+            "format": null
+          },
+          "LocationType": {
+            "jimuName": "LocationType",
+            "name": "LocationType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Location Type",
+            "format": null
+          },
+          "Name": {
+            "jimuName": "Name",
+            "name": "Name",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Name",
+            "format": null
+          },
+          "RouteName": {
+            "jimuName": "RouteName",
+            "name": "RouteName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Route Name",
+            "format": null
+          },
+          "Sequence": {
+            "jimuName": "Sequence",
+            "name": "Sequence",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Sequence",
+            "format": null
+          },
+          "ServiceCosts": {
+            "jimuName": "ServiceCosts",
+            "name": "ServiceCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Service Costs",
+            "format": null
+          },
+          "ServiceMeters": {
+            "jimuName": "ServiceMeters",
+            "name": "ServiceMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Service Meters",
+            "format": null
+          },
+          "ServiceMinutes": {
+            "jimuName": "ServiceMinutes",
+            "name": "ServiceMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Service Minutes",
+            "format": null
+          },
+          "Status": {
+            "jimuName": "Status",
+            "name": "Status",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Status",
+            "format": null
+          },
+          "TimeWindowEnd": {
+            "jimuName": "TimeWindowEnd",
+            "name": "TimeWindowEnd",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Time Window End",
+            "format": null
+          },
+          "TimeWindowEndUTCOffset": {
+            "jimuName": "TimeWindowEndUTCOffset",
+            "name": "TimeWindowEndUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Time Window End: Offset from UTC in Minutes",
+            "format": null
+          },
+          "TimeWindowStart": {
+            "jimuName": "TimeWindowStart",
+            "name": "TimeWindowStart",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Time Window Start",
+            "format": null
+          },
+          "TimeWindowStartUTCOffset": {
+            "jimuName": "TimeWindowStartUTCOffset",
+            "name": "TimeWindowStartUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Time Window Start: Offset from UTC in Minutes",
+            "format": null
+          },
+          "WaitMinutes": {
+            "jimuName": "WaitMinutes",
+            "name": "WaitMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Minutes Early",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_6_output_direction_point": {
+      "id": "widget_6_output_direction_point",
+      "label": "Puntos de indicación",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPoint",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "AlternateName": {
+            "jimuName": "AlternateName",
+            "name": "AlternateName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Alternative Feature Name",
+            "format": null
+          },
+          "ArrivalTime": {
+            "jimuName": "ArrivalTime",
+            "name": "ArrivalTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Maneuver Starts at",
+            "format": null
+          },
+          "ArrivalUTCOffset": {
+            "jimuName": "ArrivalUTCOffset",
+            "name": "ArrivalUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Offset from UTC in Minutes",
+            "format": null
+          },
+          "Azimuth": {
+            "jimuName": "Azimuth",
+            "name": "Azimuth",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Azimuth",
+            "format": null
+          },
+          "BranchName": {
+            "jimuName": "BranchName",
+            "name": "BranchName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Signpost Branch Name",
+            "format": null
+          },
+          "DirectionPointType": {
+            "jimuName": "DirectionPointType",
+            "name": "DirectionPointType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Directions Item Type",
+            "format": null
+          },
+          "DisplayText": {
+            "jimuName": "DisplayText",
+            "name": "DisplayText",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Text to Display",
+            "format": null
+          },
+          "ExitName": {
+            "jimuName": "ExitName",
+            "name": "ExitName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Highway Exit Name",
+            "format": null
+          },
+          "IntersectingName": {
+            "jimuName": "IntersectingName",
+            "name": "IntersectingName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Intersecting Feature Name",
+            "format": null
+          },
+          "Level": {
+            "jimuName": "Level",
+            "name": "Level",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "3D Logical Level",
+            "format": null
+          },
+          "Name": {
+            "jimuName": "Name",
+            "name": "Name",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Primary Feature Name",
+            "format": null
+          },
+          "Sequence": {
+            "jimuName": "Sequence",
+            "name": "Sequence",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Sequence",
+            "format": null
+          },
+          "ShortVoiceInstruction": {
+            "jimuName": "ShortVoiceInstruction",
+            "name": "ShortVoiceInstruction",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Voice Instruction",
+            "format": null
+          },
+          "StopID": {
+            "jimuName": "StopID",
+            "name": "StopID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Stop ID",
+            "format": null
+          },
+          "TowardName": {
+            "jimuName": "TowardName",
+            "name": "TowardName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Signpost Toward Name",
+            "format": null
+          },
+          "VoiceInstruction": {
+            "jimuName": "VoiceInstruction",
+            "name": "VoiceInstruction",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Voice Full Instruction",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_6_output_direction_line": {
+      "id": "widget_6_output_direction_line",
+      "label": "Líneas de indicación",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPolyline",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "DirectionLineType": {
+            "jimuName": "DirectionLineType",
+            "name": "DirectionLineType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Line Type",
+            "format": null
+          },
+          "DirectionPointID": {
+            "jimuName": "DirectionPointID",
+            "name": "DirectionPointID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Direction Point ID",
+            "format": null
+          },
+          "FromLevel": {
+            "jimuName": "FromLevel",
+            "name": "FromLevel",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Start from 3D Level",
+            "format": null
+          },
+          "Meters": {
+            "jimuName": "Meters",
+            "name": "Meters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Length in Meters",
+            "format": null
+          },
+          "Minutes": {
+            "jimuName": "Minutes",
+            "name": "Minutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Duration in Minutes",
+            "format": null
+          },
+          "ToLevel": {
+            "jimuName": "ToLevel",
+            "name": "ToLevel",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "End at 3D Level",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_6_output_route": {
+      "id": "widget_6_output_route",
+      "label": "Ruta",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPolyline",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "AnalysisSettings": {
+            "jimuName": "AnalysisSettings",
+            "name": "AnalysisSettings",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Analysis Settings",
+            "format": null
+          },
+          "EndTime": {
+            "jimuName": "EndTime",
+            "name": "EndTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "End Time",
+            "format": null
+          },
+          "EndUTCOffset": {
+            "jimuName": "EndUTCOffset",
+            "name": "EndUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "End Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "Messages": {
+            "jimuName": "Messages",
+            "name": "Messages",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Analysis Messages",
+            "format": null
+          },
+          "RouteName": {
+            "jimuName": "RouteName",
+            "name": "RouteName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Route Name",
+            "format": null
+          },
+          "StartTime": {
+            "jimuName": "StartTime",
+            "name": "StartTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Start Time",
+            "format": null
+          },
+          "StartUTCOffset": {
+            "jimuName": "StartUTCOffset",
+            "name": "StartUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Start Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "TotalCosts": {
+            "jimuName": "TotalCosts",
+            "name": "TotalCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Total Costs",
+            "format": null
+          },
+          "TotalLateMinutes": {
+            "jimuName": "TotalLateMinutes",
+            "name": "TotalLateMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Late Minutes",
+            "format": null
+          },
+          "TotalMeters": {
+            "jimuName": "TotalMeters",
+            "name": "TotalMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Meters",
+            "format": null
+          },
+          "TotalMinutes": {
+            "jimuName": "TotalMinutes",
+            "name": "TotalMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Minutes",
+            "format": null
+          },
+          "TotalWaitMinutes": {
+            "jimuName": "TotalWaitMinutes",
+            "name": "TotalWaitMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Wait Minutes",
+            "format": null
+          },
+          "Version": {
+            "jimuName": "Version",
+            "name": "Version",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Version",
+            "format": null
+          }
+        }
+      }
+    }
+  },
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://esmastergis.maps.arcgis.com"
+  },
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {}
+  },
+  "originExbVersion": "1.13.0",
+  "pageStructure": [
+    {
+      "page_1": []
+    },
+    {
+      "page_0": []
+    },
+    {
+      "page_2": []
+    },
+    {
+      "page_3": []
+    }
+  ],
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": "ROUTING",
+      "name": "route",
+      "label": "Ruta",
+      "url": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+      "source": "org"
+    },
+    "utility_2": {
+      "id": "utility_2",
+      "type": "GEOCODING",
+      "name": "geocode",
+      "label": "ArcGIS World Geocoding Service",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "northLat": "Ymax",
+        "southLat": "Ymin",
+        "eastLon": "Xmax",
+        "westLon": "Xmin",
+        "name": "ArcGIS World Geocoding Service",
+        "batch": true,
+        "placefinding": true,
+        "suggest": true
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 0
+    }
+  },
+  "timestamp": 1713312119445,
+  "header": {
+    "layout": {
+      "LARGE": "layout_7",
+      "SMALL": "layout_13"
+    },
+    "height": {
+      "LARGE": 58,
+      "SMALL": "65px"
+    },
+    "backgroundColor": "var(--light)"
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_8",
+      "SMALL": "layout_19"
+    },
+    "height": {
+      "LARGE": "40px"
+    }
+  }
+}

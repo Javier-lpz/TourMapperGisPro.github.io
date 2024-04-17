@@ -1,0 +1,15 @@
+{
+  "name": "SOS",
+  "label": "SOS",
+  "type": "widget",
+  "version": "1.13.0",
+  "exbVersion": "1.13.0",
+  "author": "JLRz",
+  "description": "Widget añadir hospitales ",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "dependency": [
+    "jimu-arcgis"
+  ]
+}
